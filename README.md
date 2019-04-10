@@ -62,7 +62,21 @@ Select the title label, which is the one with the larger font size. Click the Pi
 
 // PUT SCREENSHOT HERE //
 
-Next, select other label and add spacing constraints fot the 
+Next, select other label and add spacing constraints fot the top side to "8", left - "15", right - "15" and bottom - "15", click the Pin Button and add the constraints.
+
+// PUT SCREENSHOT HERE //
+
+Now you'll see a few constraint lines in red, indicating some layout issues. To fix these issues, open Document Outline and click the red disclosure arrow to see a list of the issues. Click the indicator icon and a pop-over shows you the possible solutions. When prompted, click Change Priority to resolve these issues.
+
+// PUT SCREENSHOT HERE //
+
+Sometimes, you may see the yellow indicator. This indicates that there are some misplacements of the views. Again, you can let Interface Builder fix the issues for you by updating the frames to match the constraints.
+
+// PUT SCREENSHOT HERE //
+
+You've created all the auto layout constraints. You can check out the preview and see how the UI looks on various devices.
+
+The view looks much better now, with the image view perfectly displayed and aligned.
 
 
 
