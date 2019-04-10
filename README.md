@@ -4,9 +4,7 @@ Description: Make an app that adapts for all screen sizes and orientations with 
 
 Setting up 
 
-In this technique there is no coding. You will primarily use Storyboard to lay out the
-user interface components and learn how to use auto layout and size classes to make the
-UI adaptive.
+In this technique there is no coding. You will primarily use Storyboard to lay out the user interface components and learn how to use auto layout and size classes to make the UI adaptive.
 First, open up Xcode, and create a new project using the Single View Application template.
 Name the project Auto Layout and make sure to select Universal for the device option.
 Now, open Main.storyboard. in Interface Builder, you should find a view controller that
