@@ -2,7 +2,7 @@
 
 Description: Make an app that adapts for all screen sizes and orientations with Auto Layout.
 
-Setting up 
+<b>Setting up</b> 
 
 In this technique there is no coding. You will primarily use Storyboard to lay out the user interface components and learn how to use auto layout and size classes to make the UI adaptive.
 First, open up Xcode, and create a new project using the Single View Application template.
@@ -10,7 +10,7 @@ Name the project Auto Layout and make sure to select Universal for the device op
 Now, open Main.storyboard. in Interface Builder, you should find a view controller that
 has the size of an iPhone 8.
 
-Creating the Project 1
+<b>Creating the Project 1</b>
 
 Let's start to design the app UI. Download the image pack http://www.github.com/Shakhboz89/ and import images to Assets.xcassets.
 Now go back to the storyboard and drag an image view from the Object Library to the view controller. Set it width to 375 and height to 390. Make sure that you choose image view and go to the Attributes Inspector, set the image to "love" and the mode to "Aspect Fill".
@@ -35,7 +35,7 @@ To use the Preview Assistant open the Assistant pop-up menu > Preview (1), then 
 
 Xcode will display a preview of the app' UI in the assistant editor. By default, it shows you the preview of your selected iOS device. You can click the + button at the lower-left corner of the assistant editor to get a preview of an iPhone 8 Plus and other devices. As you can see, the current design doesn't look good on all devices except iPhone 8. We haven't defined any auto layout constraints. This is why the view doesn't fit properly on all devices.
 
-Auto Layout Constraints
+<b>Auto Layout Constraints</b>
 
 Now select the image view and click the Pin Button on the auto layout menu to create spacing constraints. For the left, top and right sides set the value to "0". Make sure the "Constrain to margin" option is unchecked, because we want to set the constraints relative to the super view's edge. Now click the "Add 3 Constraints" button.
 
